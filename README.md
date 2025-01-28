@@ -1,4 +1,4 @@
-# 🎮Nim Game AI with Q-Learning 🤖
+# 🎮 Nim Game AI with Q-Learning 🤖
 
 Welcome to the Nim Game AI project! This repository showcases an AI powered by Q-learning for the classic Nim game. The AI learns optimal strategies through self-play and allows you to challenge it for an exciting gaming experience!
 
