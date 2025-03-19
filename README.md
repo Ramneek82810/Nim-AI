@@ -8,7 +8,7 @@ Welcome to the Nim Game AI project! This repository showcases an AI powered by Q
 
 - 🎮 Human vs AI Gameplay: Put your skills to the test against the AI.
 
--🔄 Self-Improvement: The AI improves as it trains through repeated games.
+- 🔄 Self-Improvement: The AI improves as it trains through repeated games.
 
 -🛠️ Structured Design: Organized classes for game management and AI training.
 
