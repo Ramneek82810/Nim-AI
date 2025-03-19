@@ -10,7 +10,7 @@ Welcome to the Nim Game AI project! This repository showcases an AI powered by Q
 
 - 🔄 Self-Improvement: The AI improves as it trains through repeated games.
 
--🛠️ Structured Design: Organized classes for game management and AI training.
+- 🛠️ Structured Design: Organized classes for game management and AI training.
 
 ## 🕹️ Gameplay Overview
 
