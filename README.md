@@ -4,7 +4,7 @@ Welcome to the Nim Game AI project! This repository showcases an AI powered by Q
 
 ## 🌟 Features
 
--🧠 AI-Powered Strategy: Watch the Q-learning algorithm master the game over time.
+- 🧠 AI-Powered Strategy: Watch the Q-learning algorithm master the game over time.
 
 -🎮 Human vs AI Gameplay: Put your skills to the test against the AI.
 
