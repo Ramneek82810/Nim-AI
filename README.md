@@ -38,7 +38,7 @@ This project demonstrates:
 
 - Reinforcement Learning in action through Q-learning.
 
--Game Theory Applications in AI.
+- Game Theory Applications in AI.
 
 -Self-Play as a method for AI training.
 
