@@ -18,7 +18,7 @@ Nim is a two-player game where players take turns removing objects from distinct
 
 ## 🚀 Getting Started
 
--Download the project and set it up on your system.
+- Download the project and set it up on your system.
 
 -Train the AI to enhance its gameplay skills.
 
