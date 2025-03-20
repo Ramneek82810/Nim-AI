@@ -40,7 +40,7 @@ This project demonstrates:
 
 - Game Theory Applications in AI.
 
--Self-Play as a method for AI training.
+- Self-Play as a method for AI training.
 
 ## 🎉 Let’s Play!
 
