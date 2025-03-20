@@ -36,7 +36,7 @@ Nim is a two-player game where players take turns removing objects from distinct
 
 This project demonstrates:
 
--Reinforcement Learning in action through Q-learning.
+- Reinforcement Learning in action through Q-learning.
 
 -Game Theory Applications in AI.
 
