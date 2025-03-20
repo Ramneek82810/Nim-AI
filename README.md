@@ -30,7 +30,7 @@ Nim is a two-player game where players take turns removing objects from distinct
 
 - AI Training: Implements Q-learning to let the AI learn from experience.
 
--Interactive Mode: Lets users challenge the AI in real-time.
+- Interactive Mode: Lets users challenge the AI in real-time.
 
 ## 📊 Learning Insights
 
