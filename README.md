@@ -26,7 +26,7 @@ Nim is a two-player game where players take turns removing objects from distinct
 
 ## 📂 Project Structure
 
--Game Logic: Manages gameplay, including pile setup and player turns.
+- Game Logic: Manages gameplay, including pile setup and player turns.
 
 -AI Training: Implements Q-learning to let the AI learn from experience.
 
