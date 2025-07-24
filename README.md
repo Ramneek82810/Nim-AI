@@ -1,48 +1,106 @@
-# 🎮 Nim Game AI with Q-Learning 🤖
+# 🧠 Nim AI
 
-Welcome to the Nim Game AI project! This repository showcases an AI powered by Q-learning for the classic Nim game. The AI learns optimal strategies through self-play and allows you to challenge it for an exciting gaming experience!
+An intelligent agent that plays the classic mathematical game **Nim** using game theory and the **Minimax algorithm**. This AI can play optimally against human players or simulate games against itself — fully implemented in Python.
 
-## 🌟 Features
+---
 
-- 🧠 AI-Powered Strategy: Watch the Q-learning algorithm master the game over time.
+## 📌 Overview
 
-- 🎮 Human vs AI Gameplay: Put your skills to the test against the AI.
+Nim is a mathematical game of strategy where players take turns removing objects from heaps. The player forced to take the last object **loses** (or wins, depending on the variation).
 
-- 🔄 Self-Improvement: The AI improves as it trains through repeated games.
+This project implements:
+- Full game logic
+- A **Minimax-based AI agent**
+- Human vs AI and AI vs AI play modes
 
-- 🛠️ Structured Design: Organized classes for game management and AI training.
+---
 
-## 🕹️ Gameplay Overview
+## 🧠 Tech Stack
 
-Nim is a two-player game where players take turns removing objects from distinct piles. The player forced to take the last object loses the game. In this project, the AI uses reinforcement learning to identify winning strategies and compete effectively.
+| Component     | Technology |
+|---------------|------------|
+| Programming   | Python     |
+| AI Algorithm  | Minimax with recursion |
+| Game Type     | Deterministic Turn-Based Game |
+| Interface     | Console (Text-based) |
 
-## 🚀 Getting Started
+---
 
-- Download the project and set it up on your system.
+## 📁 Project Structure
 
-- Train the AI to enhance its gameplay skills.
+```
+Nim-AI/
+├── nim.py          # Game logic (heap state, available actions, move application)
+├── play.py         # Game loop for playing against the AI
+├── README.md       # Documentation
+```
 
-- Play against the AI and enjoy the challenge!
+---
 
-## 📂 Project Structure
+## 🧠 How the AI Works
 
-- Game Logic: Manages gameplay, including pile setup and player turns.
+- The AI uses the **Minimax algorithm** to simulate all possible game states.
+- For each state, it calculates the best move assuming the opponent also plays optimally.
+- The result: an unbeatable AI in most Nim configurations.
 
-- AI Training: Implements Q-learning to let the AI learn from experience.
+---
 
-- Interactive Mode: Lets users challenge the AI in real-time.
+## ▶️ Getting Started
 
-## 📊 Learning Insights
+### ✅ Prerequisites
+- Python 3.x
 
-This project demonstrates:
+### 🛠 Installation
 
-- Reinforcement Learning in action through Q-learning.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ramneek82810/Nim-AI.git
+   cd Nim-AI
+   ```
 
-- Game Theory Applications in AI.
+2. Run the game:
+   ```bash
+   python play.py
+   ```
 
-- Self-Play as a method for AI training.
+---
 
-## 🎉 Let’s Play!
+## 🎮 How to Play
 
-Dive into the game, explore the AI’s learning process, and experience the fun of competing against a trained AI!
+- You can play as a human against the AI.
+- During your turn, input which pile to remove from and how many objects to remove.
+- The AI will make optimal moves in its turn.
+
+---
+
+## 💡 Game Rules
+
+- Start with several piles containing objects.
+- On your turn, choose **one pile** and remove **one or more** objects.
+- The player forced to take the last object **loses**.
+
+---
+
+## 🧪 Sample Output
+
+```plaintext
+Initial piles: [1, 3, 5, 7]
+Your Turn:
+Choose pile: 2
+Choose how many to remove: 3
+
+AI Turn:
+AI chose pile 3 and removed 4 objects
+```
+
+---
+
+## 📈 Future Improvements
+
+- Add difficulty levels (easy, hard)
+- Create a graphical (GUI) interface using Pygame or Tkinter
+- Add support for multiple Nim variations
+
+---
+
 
