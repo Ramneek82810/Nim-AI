@@ -45,7 +45,7 @@ Nim-AI/
 
 ---
 
-## ▶️ Getting Started
+## ▶️Getting Started
 
 ### ✅ Prerequisites
 - Python 3.x
